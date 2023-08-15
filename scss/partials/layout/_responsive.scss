@@ -1,0 +1,103 @@
+/* Media Querie para sección "Sombreros de Paja" */
+@media screen and (max-width: 760px) {
+    .tripulacion {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    
+      div {
+        width: 100%;
+        max-width: 450px;
+        opacity: 1;
+        transition: 0.5s ease;
+      
+          &:hover {
+            width: 100%;
+            opacity: 1;
+            filter: contrast(140%);
+          }
+        }
+      
+        img {
+      object-fit: cover;
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+}
+/* Fin Media Querie para sección "Sombreros de Paja" */
+
+/* Media Querie para sección "Frutas del Diablo" */
+@media screen and (max-width: 760px) {
+    .frutas__Del__Diablo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      .parrafo__Frutas__Del__Diablo {
+        grid-area: unset;
+        margin-bottom: 20px;
+      }
+    
+      .imagen__Frutas__Del__Diablo {
+        margin-top: 20px;
+      }
+  }
+}
+/* Fin Media Querie para sección "Frutas del Diablo" */
+
+/* Media Querie para sección "Sección Contacto" */
+@media screen and (max-width: 760px) {
+    .contenedor__Contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+      
+        .formulario__Contacto {
+            width: 100%;
+            max-width: 100%;
+            padding: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .video__One__Piece{
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           max-width: 100%;
+       }
+    }
+  }
+  /* Fin Media Querie para sección "Sección Contacto" */
+
+  /* Media Querie para sección "Historia" */
+  @media (max-width: 760px) {
+    .contenedor__Imagenes__Historia {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 25px;
+      img {
+        position: relative;
+        max-width: 80%;
+        margin-bottom: 20px;
+        transform: none;
+        z-index: 1;
+      }
+    
+      img:last-child {
+        z-index: 0;
+        position: absolute;
+        margin-left: 50px;
+      }
+    }
+  }
+  /* Fin Media Querie para sección "Historia" */
+  

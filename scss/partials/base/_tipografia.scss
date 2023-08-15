@@ -1,0 +1,36 @@
+@font-face{
+    font-family: "one-piece-font";
+    src: url("../fonts/one-piece-font.ttf");
+}
+/* Definimos una clase base para los títulos */
+.titulo-base {
+    font-family: one-piece-font;
+    font-size: 4rem;
+}
+
+/* Estilos H1 (Títulos de la web) que extienden de la clase base */
+.titulo__h1 {
+    @extend .titulo-base;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--titulos)
+}
+
+/* Estilos Sombreros de Paja que extienden de la clase base */
+.mugiwara {
+    @extend .titulo-base;
+}
+body, header{
+    background-color: var(--primario);
+}
+
+h1, p{
+    color: var(--titulos);
+}
+.p__acordeon{
+    color: black;
+}

@@ -1,0 +1,13 @@
+$color-iconos-footer: #f5f295;
+
+:root{
+    --primario: #fff;
+    --secundario: #0DCAF0;
+    --titulos:#000000;
+}
+
+[data-theme = "Oscuro"] {
+    --primario: #000000;
+    --secundario:#f68e07;
+    --titulos:#fff;
+}

@@ -1,0 +1,164 @@
+[
+
+    {
+        "id": 1,
+        "nombre": "Awa Awa No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Kalifa",
+        "img1" :"../img/Frutas-y-Usuarios/Awa-Awa-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Kalifa.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Baku Baku No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Wapol",
+        "img1" :"../img/Frutas-y-Usuarios/Baku-Baku-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Wapol.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Bara Bara No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Buggy",
+        "img1" :"../img/Frutas-y-Usuarios/Bara-Bara-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Buggy.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Doru Doru No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Galdino",
+        "img1" :"../img/Frutas-y-Usuarios/Doru-Doru-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Galdino.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Gomu Gomu No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Lyffy",
+        "img1" :"../img/Frutas-y-Usuarios/Gomu-Gomu-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Luffy.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Gura Gura No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Blackbeard",
+        "img1" :"../img/Frutas-y-Usuarios/Gura-Gura-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Blackbeard1.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Hana Hana No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Nico Robina",
+        "img1" :"../img/Frutas-y-Usuarios/Hana-Hana-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Nico-Robin.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Hito Hito No Mi",
+        "clase" : "Zoan",
+        "usuario" : "Chopper",
+        "img1" :"../img/Frutas-y-Usuarios/Hito-Hito-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Chopper.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Horo Horo No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Perona",
+        "img1" :"../img/Frutas-y-Usuarios/Horo-Horo-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Perona.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Hito Hito No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Doflamingo",
+        "img1" :"../img/Frutas-y-Usuarios/Ito-Ito-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Doflamingo.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Jiki Jiki No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Eustass Kid",
+        "img1" :"../img/Frutas-y-Usuarios/Jiki-Jiki-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Eustass-Kid.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Kage Kage No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Gecko Moria",
+        "img1" :"../img/Frutas-y-Usuarios/Kage-Kage-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Gecko-Moria.png"
+    },
+    {
+        "id": 13,
+        "nombre": "Mera Mera No Mi",
+        "clase" : "Logia",
+        "usuario" : "Sabo",
+        "img1" :"../img/Frutas-y-Usuarios/Mera-Mera-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Sabo.png"
+    },
+    {
+        "id": 14,
+        "nombre": "Mero Mero No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Boa Hancock",
+        "img1" :"../img/Frutas-y-Usuarios/Mero-Mero-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Boa-Hancock.png"
+    },
+    {
+        "id": 15,
+        "nombre": "Moku Moku No Mi",
+        "clase" : "Logia",
+        "usuario" : "Smoker",
+        "img1" :"../img/Frutas-y-Usuarios/Moku-Moku-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Smoker.png"
+    },
+    {
+        "id": 16,
+        "nombre": "Ope Ope No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Trafalgar Law",
+        "img1" :"../img/Frutas-y-Usuarios/Ope-Ope-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Trafalgar-Law.png"
+    },
+    {
+        "id": 17,
+        "nombre": "Sube Sube No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Alvida",
+        "img1" :"../img/Frutas-y-Usuarios/Sube-Sube-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Alvida.png"
+    },
+    {
+        "id": 18,
+        "nombre": "Suna Suna No Mi",
+        "clase" : "Logia",
+        "usuario" : "Crocodile",
+        "img1" :"../img/Frutas-y-Usuarios/Suna-Suna-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Crocodile.png"
+    },
+    {
+        "id": 19,
+        "nombre": "Yami Yami No Mi",
+        "clase" : "Logia",
+        "usuario" : "Blackbeard",
+        "img1" :"../img/Frutas-y-Usuarios/Yami-Yami-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Blackbeard2.png"
+    },
+    {
+        "id": 20,
+        "nombre": "Yomi Yomi No Mi",
+        "clase" : "Paramecia",
+        "usuario" : "Brook",
+        "img1" :"../img/Frutas-y-Usuarios/Yomi-Yomi-No-Mi.webp",
+        "img2" :"../img/Frutas-y-Usuarios/Brook.png"
+    }
+
+]

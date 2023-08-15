@@ -1,0 +1,54 @@
+/* Estilos de la Sección CONTACTO */
+.contenedor{
+    max-width: 1164px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .texto__Contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .contenedor__Contacto {
+        display: flex;
+        align-items: center;
+        max-width: 1160px;
+        margin: 0 auto;
+    
+        .formulario__Contacto {
+            width: 100%;
+            padding: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    }
+  
+    .video__One__Piece {
+        width: 100%;
+        max-width: 50%;
+        padding: 20px;
+
+            .video__Carrusel__Padre{
+                width: 100%;
+                margin: auto;
+
+                .video__Carrusel__Hijo{
+                    height: 0px;
+                    padding-bottom: 56.25%;
+                    position: relative;
+
+                    & iframe{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                        }
+                }
+            }
+        }
+    }
+
+/* Fin Estilos de la Sección CONTACTO */

@@ -1,0 +1,53 @@
+/* Estilos del FOOTER */
+.footer__integrantes{
+    padding-top: 1rem;
+    margin-top: 20px;
+
+    .redes__Sociales{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .iconos__Footer a {
+            position: relative; 
+            display: block;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 63px;
+            border-radius: 50%;
+            font-size: 30px;
+            color: var(--primario);
+            transition: .5s;
+          }
+          
+          .iconos__Footer a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transition: .5s;
+            transform: scale(.9);
+            z-index: -1;
+          }
+          
+          .iconos__Footer a:hover::before {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px $color-iconos-footer;
+          }
+          
+          .iconos__Footer a:hover {
+            color: $color-iconos-footer;
+            box-shadow: 0 0 5px $color-iconos-footer;
+            text-shadow: 0 0 5px $color-iconos-footer;
+          }
+    }
+}
+footer{
+  background-color: var(--secundario);
+  color: var(--titulos)
+}
+/* Fin Estilos del FOOTER */
