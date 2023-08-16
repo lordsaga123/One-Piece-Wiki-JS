@@ -107,15 +107,15 @@ header .encabezado .navbar-nav .boton:hover:before, header .encabezado .navbar-n
 }
 
 #toggle__Label span {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 #toggle__Label {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 36px;
-  width: 70px;
+  height: 25px;
+  width: 50px;
   background-color: black;
   border-radius: 16px;
   padding: 2px 2px 0px 2px;
@@ -137,17 +137,17 @@ header .encabezado .navbar-nav .boton:hover:before, header .encabezado .navbar-n
 .slider::before {
   position: absolute;
   content: "";
-  height: 36px;
-  width: 35px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
   background-color: white;
-  left: -1px;
+  left: 25px;
   box-shadow: blue 0 0 8px;
   transition: 0.4s;
 }
 
 input:checked + .slider::before {
-  transform: translateX(38px);
+  transform: translateX(-25px);
 }
 
 /* Fin Estilos del "Header" */
@@ -307,6 +307,8 @@ input:checked + .slider::before {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 .imagen1 {

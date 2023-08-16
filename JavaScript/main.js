@@ -26,9 +26,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
                     <img class="imagen2" src="${fruta.img2}" alt="imagen__Fruta">
                 </div>
                 <div class="informacion__General__Fruta">
-                    <p class="nombre__Fruta" id="nombre__Fruta">Nombre: ${fruta.nombre} </p>
-                    <p class="clase__Fruta" id="clase__Fruta">Clase: ${fruta.clase} </p>
-                    <p class="usuario__Fruta" id="usuario__Fruta">Usuario: ${fruta.usuario} </p>
+                    <p class="nombre__Fruta" id="nombre__Fruta">
+                    Nombre: ${fruta.nombre}<br>
+                    Clase: ${fruta.clase}<br> 
+                    Efecto: ${fruta.efecto}<br>
+                    Usuario: ${fruta.usuario}</p>
                 </div>
                 `;
                 divProductos.appendChild(div);
@@ -58,9 +60,11 @@ function filtrarDatosFrutas(termino) {
                 <img class="imagen2" src="${fruta.img2}" alt="imagen__Fruta">
             </div>
             <div class="informacion__General__Fruta">
-                <p class="nombre__Fruta" id="nombre__Fruta">Nombre: ${fruta.nombre} </p>
-                <p class="clase__Fruta" id="clase__Fruta">Clase: ${fruta.clase} </p>
-                <p class="usuario__Fruta" id="usuario__Fruta">Usuario: ${fruta.usuario} </p>
+                    <p class="nombre__Fruta" id="nombre__Fruta">
+                    Nombre: ${fruta.nombre}<br>
+                    Clase: ${fruta.clase}<br> 
+                    Efecto: ${fruta.efecto}<br>
+                    Usuario: ${fruta.usuario}</p>
             </div>
         `;
         divProductos.appendChild(div);
@@ -111,7 +115,7 @@ const cambiarTema = (event) => {
                 background: "var(--primario) ",
             },
             onClick: function(){}
-          }).showToast();
+        }).showToast();
     } else {
         Toastify({
             text: "Modo Claro, Nakama!",
@@ -127,7 +131,7 @@ const cambiarTema = (event) => {
                 background: "var(--primario) ",
             },
             onClick: function(){}
-          }).showToast();
+        }).showToast();
         document.documentElement.removeAttribute("data-theme");
         localStorage.removeItem("tema");
     }
